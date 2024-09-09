@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    /* justify-content: center; */
+    /* gap: 5px; */
+}
+
+
+.container>div{
+    padding: 10px;
+}
+
+
+.container1{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.container2{
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.container3{
+    background-color: rgb(216, 37, 177);
+    border: 1px solid black;
+    color: white;
+}
+
+.container4{
+    background-color: rgb(92, 92, 235);
+    border: 1px solid black;
+}
+
+.container5{
+    background-color: rgb(253, 72, 72);
+    border: 1px solid black;
+}
+
+.container6{
+    background-color: rgb(191, 224, 123);
+    border: 1px solid black;
+}

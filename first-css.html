@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first-css.css">
+    <title>Learning CSS</title>
+</head>
+<body>
+    <a href="#bottom">Go to Bottom</a>
+    <div id="top">
+        <h1>Html Overview</h1>
+    </div>
+    <div class="container">
+    <!-- Row1 -->
+    <div id="row1">
+        <div id="box1">
+            <strong>Container tags which dont have their own content.</strong>
+                <br>
+                <br>    
+                <details closed>
+                    <summary>
+                       Examples  
+                    </summary>
+                    <ul>
+                        <li>table</li>
+                        <li>body</li>
+                        <li>div</li>
+                        <li>head</li>
+                    </ul>
+                </details>
+        </div>
+        <div id="box2">
+            <strong>Standalone tags which need not be closed.</strong>
+                <br>
+                <br>
+                <details closed>
+                    <summary>
+                        Examples
+                    </summary>
+                    <ul>
+                        <li>Br</li>
+                        <li>img</li>
+                        <li>hr</li>
+                    </ul>
+                </details>
+        </div>
+        <div id="box3">
+            <strong>
+                Content tags which must be opened and closed.<br>The content is entered in between opening and closing tags
+            </strong>
+            <br>
+            <br>
+            <details closed>
+            <summary>
+                Examples
+            </summary>
+            <ul>
+                <li>h1</li>
+                <li>td</li>
+                <li>tr</li>
+                <li>div</li>
+                <li>span</li>
+            </ul>
+        </details>
+        </div>
+        <div id="box4" >
+            <strong> Parent and child tags.</strong>
+               <br>
+               <br>
+               <details closed>
+                <summary>Examples</summary>
+                <ul>
+                    <li>
+                        thead
+                        <ul>
+                            <li>
+                                th
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+               </details>
+        </div>
+        <div id="box5">
+            <strong>
+                Tags have attributes
+            </strong>
+            <br>
+            <br>
+            <details closed>
+            <summary>
+                Examples
+            </summary>
+            <ul>
+                <li>id</li>
+                <li>class</li>
+                <li>src</li>
+                <li>div</li>
+                <li>span</li>
+            </ul>
+        </details>
+        </div>
+        
+    </div>
+
+    <!-- Row2 -->
+    <div id="row2" >
+        <div id="box1" >
+            <div class="headings">
+                <div>
+                    <h1>This is h1</h1>
+                </div>
+                <div >
+                    <h2>This is h2</h2>
+                </div>
+                <div >
+                    <h3>This is h3</h3>
+                </div>
+                <div >
+                    <h4>This is h4</h4>
+                </div>
+                <div>
+                    <h5>This is h5</h5>
+                </div>
+                <div>
+                    <h6>This is h6</h6>
+                </div>
+            </div>    
+        </div>
+        <div id="box2">
+            <h2>Text formatting</h2>
+            <b>Bold</b> &nbsp;<code>&lt;b&gt;&lt;/b&gt;</code>
+            <br>
+            <i>italic</i> &nbsp;<code>&lt;i&gt;&lt;/i&gt;</code>
+            <br>
+            <u>underline</u> &nbsp;<code>&lt;u&gt;&lt;/u&gt;</code>
+            <br>
+            <strike>Strike-deprecated</strike> &nbsp;<code>&lt;strike&gt;&lt;/strike&gt;</code>
+            <br>
+            <s>Strike working</s> &nbsp;<code>&lt;s&gt;&lt;/s&gt;</code>
+            <br>
+            <p>10<sub>5</sub>(subscript)</p> &nbsp;<code>&lt;sub&gt;&lt;/sub&gt;</code>
+            <br>
+            <p>10<sup>5</sup>(superscript)</p> &nbsp;<code>&lt;sup&gt;&lt;/sup&gt;</code>
+            <br>
+        </div>
+        <div id="box3">
+            <h2>Punctuation tags:  </h2>
+            <p>&lt;q&gt;&lt;/q&gt;</p>
+            <q>You are a Trillionare</q>
+            <cite>Anil</cite>
+        </div>
+        <div id="box4">
+            <h2>Paragraph Tag</h2>
+            <p>&lt;p&gt;&lt;/p&gt;</p>
+            <p>This is a paragraph</p>
+        </div>
+        <div id="box5">
+            <h2>Anchor Tags:</h2>
+            <a href="http://ww.google.com" target="_blank" rel="noopener noreferrer">Go to google</a>
+            <p>By default link opens in same tab</p>
+            <p>to open in new tab use <code>target="_blank" </code> attribute</p>
+        </div>
+        
+    </div>
+
+    <!-- Row3 -->
+
+    <div id="row3" class="list_container">
+        <div id="box1" class="list-custom">
+            <h2>Ordered List<code>&lt;ol&gt;&lt;/ol&gt;</code></h2>
+                    <ol type="A">
+                        <li>First item</li>
+                        <li>second item</li>
+                        <li>third item</li>
+                    </ol>
+        </div>
+        <div id="box2" class="list-custom">
+            <h2>Unordered List<code>&lt;ul&gt;&lt;/ul&gt;</code></h2>
+                    <ul type="square">
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ul>
+        </div>
+    </div>
+
+    <!-- Row4 -->
+
+    <div id="row4" >
+        <div id="box1">
+            <h2>Iframe</h2> <code>&lt;iframe&gt;src="https://www.flipkart.com"  frameborder="0&lt;/iframe&gt;</code>
+            <br>
+            <iframe src="https://www.flipkart.com"  frameborder="0"></iframe>
+        </div>
+        <div id="box2">
+            <figure>
+                <img src="./Screenshot (1).png"  alt="screenshot">
+                <figcaption>This is the caption</figcaption>
+            </figure>
+        </div>
+        <div id="box3">
+            <video src="./flower.webm"  controls autoplay>play</video>
+        </div>
+        <div id="box4">
+            <p>The video element can be added using: </p>
+            <code>&lt;video&gt; src="./flower.webm"  controls autoplay>play&lt;/video&gt;code>
+        </div>
+    </div>
+
+    <!-- Row5 -->
+
+    <div id="row5">
+        <div id="box1">
+            <th colspan="5">Container Tags</th>
+        </div>
+        <div id="box2">
+            <div>
+                <h2><u>Example using div</u></h2>
+                <div>
+                    <h3>hello1</h3>
+                    <h3>hello2</h3>
+                    <h3>hello3</h3>
+                </div>
+               </div>
+        </div>
+        <div id="box3">
+            <h2><u>Example using span</u></h2>
+            <span class="content">
+                <span>
+                    <h3>welcome1</h3>
+                    <h3>welcome2</h3>
+                    <h3>welcome3</h3>
+                </span>
+            </span>
+        </div>
+        <div id="box4">
+            <h2>Using semantic tags like nav,main,section</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="http://www.google.com">Link</a></li>
+                            <li><a href="http://www.google.com">Link</a></li>
+                            <li><a href="http://www.google.com">Link</a></li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <section>
+                            <article>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nobis!
+                                    <aside>hello1</aside>
+                                </p>
+                            </article>
+                        </section>
+                    </main>
+        </div>
+    </div>
+
+    <!-- Row6 -->
+
+    <div id="row6" >
+        <div id="box1">
+            <label for="calender">Choose date of birth</label>
+                <input type="date" value="2013-01-08" name="calender" id="mycal">
+        </div>
+        <div id="box2">
+            <label for="time">Enter time of joining</label>
+            <input type="time"  name="time" id="mytime">
+        </div>
+        <div id="box3">
+            <label for="userid">Name:</label>
+            <input type="text"  placeholder="Enter your name" name="userid" id="userid" maxlength="20">
+        </div>
+        <div id="box4">
+            <label for="age">Age:</label>
+                <input type="number" placeholder="Enter your age" name="age" id="agenum" min="18" max="60">
+        </div>
+        <div id="box5">
+            <label for="officialmail">Email:</label>
+            <input type="email" placeholder="enter your email" name="officialmail" id="officialmail">
+        </div>
+        
+    </div>
+
+    <div id="row7" >
+        <div id="box1">
+            <input type="range" name="range" id="range" min="10" max="100">
+        </div>
+        <div id="box2">
+            <input type="search" name="search" id="search">
+        </div>
+        <div id="box3">
+            <input type="color" value="#933923" name="color" id="color">
+        </div>
+        <div id="box4">
+            <input type="button" value="click">
+        </div>
+        <div id="box5">
+            <input type="file" name="file" id="file">
+        </div>
+        
+    </div>
+
+    <div id="row8" >
+        <div id="box1">
+            <label for="pg">checkboxes: </label> 
+            MTECH <input type="checkbox" name="pg" value="mtech" id="pg" checked>
+            MSC <input type="checkbox" name="pg" value="msc" id="pg">
+            MBA <input type="checkbox" name="pg" value="mba" id="pg">
+        </div>
+        <div id="box2">
+            <label for="ug">Radiobuttons</label> 
+                Btech <input type="radio" name="ug" value="btech" id="pg"  checked>
+                BE <input type="radio" name="ug" value="be" id="pg">
+                BSC <input type="radio" name="ug" value="bsc" id="pg">
+        </div>
+        <div id="box3">
+            <select name="state" id="state" >
+                <option hidden disabled selected value>---select state----</option>
+                <option value="kerala">kerala</option>
+                <option value="Tamil nadu">Tamil nadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Telangana">Telangana</option>
+            </select>
+        </div>
+        <div id="box4">
+            <textarea  name="textarea" id="textarea" cols="30" ></textarea>
+        </div>
+    </div>
+
+    <div id="row9">
+        <div id="box1">
+            <footer id="bottom" >
+                <p>&copy;2024</p>
+                <a href="#top">Go to Top</a>
+            </footer>
+        </div>
+    </div>
+</div>
+    
+    
+    
+</body>
+</html>

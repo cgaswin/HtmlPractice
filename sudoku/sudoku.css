@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: "Grey Qo", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-row{
+    flex: 1;
+    display: flex;
+}
+
+.box{
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-row{
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+}
+
+.final-row{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.final-row:hover{
+    box-shadow: 0px 2px 12px rgba(37, 172, 225, 0.7) inset;
+}
+
